@@ -24,9 +24,9 @@ export default function RootLayout({ children }) {
         }}
         >
 
-          <Link style={{margin:"7px"}} href='/'>Home</Link>
+          <Link style={{margin:"7px"}} href='/'> </Link>
            
-          <Link style={{margin:"7px"}} href='/posts'>Post</Link>
+          <Link style={{margin:"7px"}} href='/posts'> </Link>
         </nav>
         
         {children}</body>
