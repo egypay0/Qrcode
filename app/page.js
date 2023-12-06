@@ -1,9 +1,21 @@
  
-export default function Home() {
+ import Image from 'next/image'
+ import profilePic from './neural-v-1.png'
+ 
+
+ export default function Home() {
   return (
-     <div className="flex ">
-    <h1>   New</h1>
-    <h2>  cc mx  </h2>
-    </div>
+    <div class="container mx-auto   center  w-1/2  h-3/4">
+    <div>
+    <br></br>
+    <br></br>
+    <br></br>
+     </div>
+    <Image
+      src= {profilePic} 
+        
+      alt="NTS"
+    />
+  </div>
   )
 }
