@@ -9,7 +9,7 @@
     <div>
     <br></br>
     <br></br>
-    <br></br>
+    <br></br>Welcome
      </div>
     <Image
       src= {profilePic} 
